@@ -1,0 +1,195 @@
+.custom-badge-app {
+    border: 3px solid black;
+    border-radius: 0.2em;
+    padding: 0.2em;
+}
+
+.custom-badge {
+    border: 3px solid black;
+    border-radius: 0.2em;
+    padding: 0.5em;
+}
+
+.badge-1 {
+    background-color: #c2d5dc;
+    padding: 0.2em;
+    font-weight: bold;
+}
+
+.badge-2 {
+    padding: 0.2em;
+    font-weight: bold;
+    background-color: #d1ece3;
+}
+.image-tutorial {
+    width: 60%;
+}
+
+ul#proList {
+    list-style-position: inside;
+    padding-left: 10px;
+}
+
+.avatar {
+    width: 5em;
+}
+#devicesList {
+    padding-left: 10px;
+}
+
+li.item {
+    list-style: none;
+    padding: 5px;
+    cursor: pointer;
+}
+li.item:hover {
+    background-color: #d7df95;
+}
+
+.device_bullet {
+    cursor: pointer;
+}
+
+.device_label {
+    margin-left: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.panel-blocks {
+    background-color: whitesmoke;
+}
+
+.panel-circuit {
+    background-color: white;
+}
+
+.panel-code {
+    background-color: whitesmoke;
+}
+
+.square-robots {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    font-size: 38px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 300px;
+    text-align: center;
+    background: #288e8e;
+    cursor: pointer;
+    border: 5px solid #484848;
+}
+
+.square-robots_setup {
+    width: 200px;
+    height: 100px;
+    border-radius: 10%;
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 300px;
+    text-align: center;
+    background: #aab171;
+    cursor: pointer;
+    border: 5px solid #484848;
+}
+
+.square-robots_programs {
+    width: 200px;
+    height: 100px;
+    border-radius: 10%;
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 300px;
+    text-align: center;
+    background: #288e8e;
+    cursor: pointer;
+    border: 5px solid #484848;
+}
+
+.square-robots_editor {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 300px;
+    text-align: center;
+    background: #924e77;
+    cursor: pointer;
+    border: 5px solid #484848;
+}
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+}
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    margin: 6px;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.modalTitleRC {
+    font-weight: bold;
+}
+.rec {
+    margin: auto;
+    height: 50px;
+    width: 50%;
+    background-color: #555;
+    border: 2px solid #484848;
+}
+
+.semi-circulo-top {
+    margin: auto;
+    width: 110px;
+    height: 50px;
+    border: 2px solid #555;
+    background: #555;
+    border-radius: 100px 100px 0 0;
+}
+
+.semi-circulo-bottom {
+    margin: auto;
+    width: 110px;
+    height: 50px;
+    border: 2px solid #555;
+    background: #555;
+    border-radius: 0 0 100px 100px;
+}
+
+.dropdown-menu li a {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}

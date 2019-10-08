@@ -1,0 +1,94 @@
+/*
+@import url("../libs/font-awesome/css/all.min.css");
+@import url("../libs/hoverCss/css/hover-min.css");
+@import url("../node_modules/codemirror/lib/codemirror.css");
+@import url("../node_modules/codemirror/theme/material.css");
+@import url("../node_modules/codemirror/theme/monokai.css");
+@import url("../node_modules/codemirror/theme/twilight.css");
+@import url("../node_modules/codemirror/theme/seti.css");
+@import url("../node_modules/codemirror/theme/dracula.css");
+
+@import url("./icons/css/devicons.min.css");
+@import url("./icons.css");
+
+*/
+@import url("blockly.css");
+@import url("challenges.css");
+@import url("code-mirror.css");
+@import url("carousel.css");
+@import url("animation.css");
+@import url("./button.css");
+@import url("editor.css");
+@import url("modals.css");
+@import url("spinner.css");
+@import url("components.css");
+@import url("help.css");
+
+body {
+    background: white;
+    font-family: monospace;
+    animation: fadeIn 0.4s linear;
+}
+
+.body-main {
+    background: #282a36;
+    background: linear-gradient(to bottom, #282a36 0%, #552d55 100%);
+    animation: fadeIn 0.4s linear;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right-dots {
+    border-right: 0.5px dashed #5e1c33;
+}
+
+@media (max-width: 1200px) {
+    .right-dots {
+        border-right: none;
+    }
+}
+
+.section-content {
+    color: white;
+    font-size: 25px;
+}
+
+.welcome {
+    background-color: #ffffff;
+    padding: 70px 50px 30px 50px;
+}
+
+.section-buttons-expert {
+    border: 3px solid #d2d2d2;
+    border-radius: 0.5em;
+    text-align: center;
+    background-color: #353535;
+}
+
+.current-code {
+    border: 3px solid antiquewhite;
+}
+
+.block-code {
+    width: 100%;
+}
+
+.badge-key {
+    background-color: #8d6d79;
+    padding: 5px;
+    font-size: 1.4em;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.list-header {
+    background-color: #944e5d !important;
+    color: #e1e1e1 !important;
+}
